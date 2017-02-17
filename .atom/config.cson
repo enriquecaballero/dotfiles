@@ -80,6 +80,9 @@
       "nuclide-side-bar": false
   "one-dark-ui":
     tabSizing: "Even"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   "platformio-ide-terminal":
     core:
       shell: "/usr/local/bin/zsh"
