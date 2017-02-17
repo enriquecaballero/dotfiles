@@ -26,3 +26,14 @@
   * Install [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
   * Install [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh)
   * Install to `~/.zshrc`
+
+### [.hyper.js](https://raw.github.com/enriquecaballero/dotfiles/master/.hyper.js)
+
+* Install [Hyper](https://hyper.is)
+* Install to `~/.hyper.js`
+
+### [.hyper_plugins](https://raw.github.com/enriquecaballero/dotfiles/master/.hyper_plugins)
+
+  * Install [hpm](https://github.com/zeit/hpm) (optional but recommended)
+  * Install to `~/.hyper_plugins`
+  * Run `$ cd ~/.hyper_plugins && npm install` to install plugins
