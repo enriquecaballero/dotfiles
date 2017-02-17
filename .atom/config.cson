@@ -24,7 +24,6 @@
     fontSize: 15
     invisibles: {}
     showIndentGuide: true
-    softWrap: true
     softWrapHangingIndent: 2
     tabType: "soft"
   "exception-reporting":
