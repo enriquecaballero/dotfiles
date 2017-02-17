@@ -20,3 +20,9 @@
 ## [.bashrc](https://raw.github.com/enriquecaballero/dotfiles/master/.bashrc)
 
   * Install to `~/.bashrc`
+
+## [.zshrc](https://raw.github.com/enriquecaballero/dotfiles/master/.zshrc)
+
+  * Install [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+  * Install [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh)
+  * Install to `~/.zshrc`
