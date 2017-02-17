@@ -4,6 +4,9 @@
 
 * Download [Atom](https://atom.io)
 * Install to `~/.atom`
+* Open Atom and install shell commands `Atom > Install Shell Commands` (macOS only)
+* Run `$ apm install package-sync` to installs package that installs packages off `packages.cson`
+* Install packages `Packages > Package Sync > Sync Packages`
 
 ## [.gitconfig](https://raw.github.com/enriquecaballero/dotfiles/master/.gitconfig)
 
