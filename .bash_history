@@ -1,500 +1,327 @@
-cleare
-clear
-npm install
-nvm use 6
-clear
-rm -rf node_modules/
-npm install
-clear
-npm install -g npm-check-updates
-npm-check-updates
-npm-check-updates -u
-npm install
-rm -rf node_modules/
-clear
-ncu
-ncu -a/--upgradeAll
-clear
-ncu
-npm update
-clear
-rm -rf
-ncu
-rm -rf node_modules/
-clear
-ncu
-ncu -a/--upgradeAll
-ncu -a/--upgradeAll
-ncu
-ncu -u
-ncu -a
-ncu
-npm install
-npm run dev
-clear
-npm run dev
-clear
-npm run dev
-rm -rf node_modules/
-ncu
-npm install
-rm -rf .git
-git init
-git status
-git add --all
-git commit -m "Initial commit"
-npm run dev
-clear
-cd ../react-hello-world/
-git pull
+apt-get install git-core
+apt-get install zsh
 atom .
-git checkout redux
-git checkout .
-git checkout redux
-git checkout master
-git origin -v
-git remote -v
-git fetch github
-cd ../
-rm -rf react-hello-world/
-git clone git@github.com:enriquecaballero/react-hello-world.git
-npm install
-cd react-hello-world/
-npm install
-atom .
-git checkout gh-pages
-git fetch
-git checkout gh-pages
-git add --a;;
-git add --all
-git commit -m "Created GitHub Page"
-git push
-git checkout master
-npm run build
-npm install
-git add --all
-git commit -m "Made some comment changes"
-git subtree push --prefix dist origin gh-pages
-git subtree push --prefix dist origin gh-pages
-git push
-git fetch
-git subtree push --prefix dist origin gh-pages
-git fetch
-git subtree push --prefix dist origin gh-pages
-git checkout gh-pages
-git pull
-git checkout .
-git pull
-cd ../
-rm -rf react-hello-world/
-git clone git@github.com:enriquecaballero/react-hello-world.git
-atom . && nom install
-cd react-hello-world/
-atom . && npm install
-git checkout gh-pages
-git subtree push --prefix dist origin gh-pages
-git checkout gh-pages
-git pull
-git checkout master
-git pull
-git subtree push --prefix dist origin gh-pages
-git fetch
-git checkout master
-git reset --hard origin/master
-git checkout gh-pages
-git checkout master
-git remote prune origin
-git subtree push --prefix dist origin gh-pages
-git add --all
-git commit -m "Added demo link to README.md"
-git push
-git subtree push --prefix dist origin gh-pages
-node -v
-nvm use 6
-nvm alias default
-nvm alias default 6
-node -v
-atom .
-cd ~/Sites/
-ll
-cd react-flipper/
-git pull
-git checkout .
-git pull
-npm run dev
-npm install
-ncu
-npm-check-modules
-npm i -g npm-check-updates
-npm -v
-nvm use 6
-ncu
-clear
-ncu
-ncu -u
-ncu -a
-ncu
-rm -rf node_modules/
-npm install
-atom .
-npm run dev
-git fetch
-rm -rf node_modules/
-nvm install 6
-nvm alias default 6
-rm -rf nod
-ncu
-atom ~/.bash_profile 
-open ~/.nvm/
-ll
-ll ~/
-ll ~/
-nvm
-nvm ls
-nvm uninstall 6.9.0
-nvm uninstall 6.0.0
-nvm uninstall 5.9.1
-nvm ls
-npm install -g npm-check-updates
-ncu
-npm install
-git checkout master
-git checkout .
-git checkout master
-git pull
-rm -rf node_modules/
-ncu
-ncu -u -a
-ncu
-npm i
-ncu
-atom ../react-boilerplate/
-atom ../react-hello-world/
-npm i -s webpack
-cd ../react-hello-world/
-npm run dev
-cd ..
-git clone git@github.com:enriquecaballero/react-hello-world.git react-flipper-alt
-atom .
-cd react-flipper-alt/
-atom .
-cd ../react-flipper
-git checkout gh-pages
+atom ~/.bash_profile
+atom ~/.bashrc
+atom /etc/passwd
+atom ~/.hyper.js
+atom  money/
 atom ../money/
-npm i --save-dev less less-loader
-npm i --save-dev style-loader
-npm i --save-dev css-loader
+atom nanostorm-aoi-component/
+atom . && nom install
+atom . && npm install
+atom react-
+atom ../react-boilerplate/
+atom react-boilerplate/
+atom react-fl
+atom ../react-flipper
+atom react-flipper-alt/
+atom ../react-hello-world/
+atom react-hello-world/
+atom ~/.zsh
+atom ~/.zshrc
+ bash -c 'exec env ${EDITOR:=nano} ~/.hyper.js'
+bitbucket-pages
+brew
+brew install zsh
+brew search oh-my-zsh
+brew uninstall zsh
+cd ~
+cd !
+cd ..
+cd ../
+cd ../../
+cd /bin/
+cd bin/
+cd bin/node-v6.9.1-darwin-x64/
+cd /bin/zsh
+cd deepdive/
+cd deepdive/ui_alt/
+cd /Des
+cd ~/Desktop/
+cd Desktop/
+cd ~/Documents/
+cd Documents/
+cd ~/Documents/nanostorm/
+cd Documents/nanostorm/
+cd Documents/nanostorm/generator-nanostorm/
+cd Documents/nanostorm/nanostorm-aoi-component/
+cd Documents/nanostorm/nanostorm-core/
+cd generator-nanostorm/
+cd generator-nanostorm/\
+cd generators/
+cd generators/templates/
+cd generator-test
+cd generator-test/
+cd /homes/emcaballero/Documents/nanostorm/generator-nanostorm
+cd /homes/emcaballero/.nvm/versions/node/v6.9.1/lib/node_modules
+cd lib/
+cd Module/
+cd nanostorm-
+cd nanostorm/
+cd ../nanostorm-aoi-component/
+cd ../nanostorm-core/
+cd nanostorm-core/
+cd node/
+cd node_modules/
+cd .nvm/
+cd react-
+cd ../react-boilerplate/
+cd react-boilerplate/
 cd ../react-fl
 cd ../react-flipper
-git checkout .
-git status
-rm webpack.config.babel.js 
-git status
+cd react-flipper/
 cd ../react-flipper-alt/
-ll
-atom ../react-hello-world/
-npm run dev
-rm -rf node_modules/
-npm i
-npm run dev
-clear
-npm run dev
-npm run dev
-npm run dev
-npm i -S url-loader
-npm run dev
-npm run dev
-npm run dev
-rm -rf node_modules/
-npm i
-npm run dev
-npm run dev
-npm run dev
-npm run build
-clear
-rm -rf node_modules/
-npm i
-npm run build
-npm run build
-clear
-npm run build
-clear
-npm run build
-rm dist/*
-rm lib/*
-npm run dev
-npm run build
-rm -rf .git
-git init
-git add --all
-git reset
-atom ../react-flipper
-git add --all
-git commit -m "Initial commit"
-git remote add origin React 'flipper' component that is agnostic to the height of its tiles, resizing accordingly. No jQuery.
-git remote add origin git@gitlab.com:enriquecaballero/react-flipper.git
-git remote -v
-git push -u origin master
-atom ../react-flipper
-npm run dev
-npm run dev
-git status
-git add --all
-git commit -m "Made some directory changes and updated README.md"
-git push
-git subtree push --prefix dist origin gh-pages
-cd ../react-boilerplate/
-atom .
-git log
-git remote -v
-git remote add origin git@github.com:enriquecaballero/react-app-boilerplate.git
-git push -u origin master
-git add --all
-git commit -m "Update General.less"
-git push
-exit
-cd Sites/
 cd react-flipper-alt/
-atom .
-git status
-git add --all
-git commit -m "Updated package.json"
-git push
-git status
-git add --all
-git commit -m "Changed a few variable names inside the webpack config files for easier reading"
-git push
-git push
-atom .
-git status
-git diff webpack.config.babel.js
-git add --all "Attempt to fix weird tabs inside webpack.config.babel.js"
-git push
-git add --all
-git commit -m "Attempt to fix weird tabs inside webpack.config.babel.js"
-git push
-git add --all
-git commit -m "Fixed spacing"
-git push
-cd ..
-atom react-hello-world/
-atom react-boilerplate/
-atom react-boilerplate/
-atom react-boilerplate/
-cd ~/Sites/
-ll
+cd ../react-hello-world/
 cd react-hello-world/
-npm i
-cd ..
-atom react-fl
-atom react-flipper-alt/
-npm run dev
-nvm use 6
-npm run dev
-cd react-flipper-alt/
-clear
-clear
-npm run dev
-npm run dev
-npm run dev
-npm i -S babel-plugin-transform-class-properties
-npm i --save-dev babel-plugin-transform-class-properties
-cleart
-clear
-npm run dev
-npm i --save-dev babel-plugin-transform-object-rest-spread
-npm run dev
-clear
-npm run dev
-clear
-npm run dev
-npm i -S classnames
-npm uninstall --save classnames
-npm run dev
-npm i --save-dev babel-pl
-npm run dev
-npm run d\ev
-npm run dev
-npm run dev
-npm run dev
-npm run build
-npm run dev
-exit
-clear
+cd ~/Sites/
 cd Sites/
-ll
-cd react-boilerplate/
-ll
-clear
-atom .
-git pull
-npm i
-npm run dev
-npm install empty
-npm uninstall empty
-npm i -S empty
-npm run dev
-cd Sites/
-ll
-open .
-cd react-boilerplate/
-git pull
-git log
-clear
-atom .
-cd Sites/react-boilerplate/
-atom .
-npm install -g flow-typed
-flow-typed install
-atom .
-npm uninstall -g flow-typed
 cd Sites/react-
 cd Sites/react-boilerplate/
-npm run dev
-npm i
-npm i
-npm run dev
-cd Sites/
-ll
-atom react-
-atom react-boilerplate/
-cd Sites/
-ll
-clear
-ll
-atom  money/
-cd Sites/
-atom react-boilerplate/
-cd Sites/
-pwd
-node -v
-npm i -G yo generator-generator
-yo generator
-yo
-npm root -g
-npm root
-ncu
-yo
-ll
-cd .nvm/
-ll
-cd bin/node-v6.9.1-darwin-x64/
-ll
-cd ..
-ll
-cd ..
-ll
-cd versions/
-ll
-cd node/
-ll
+cd src/components/core/
+cd ~/src/dev.visionistinc.com/
+cd ~/src/dev.visionistinc.com/deepdive/
+cd src/dev.visionistinc.com/deepdive/
+cd templates/
+cd /tmp
+cd ui/
+cd ui_alt/
+cd /usr/local/
 cd v6.9.1/
-ll
-npm root -g
-cd lib/
-ll
-cd node_modules/
-ll
-npm install --global yo generator
-ll
-yo
-ll
+cd versions/
+cd zsh
+chmod 777 hyper-1.1.0.deb
+chmod 999 hyper-1.
+chmod 999 hyper-1.1.0.deb
+chsh
+chsh -s /bin/zsh
+chsh -s /usr/local/bin/zsh
+chsh -s `which zsh`
+chsh -s $(which zsh)
+cleaer
 clear
-cd ~
-yo generator
-ll
-cd ~/Desktop/
-ll
-cd generator-test/
-ll
-atom .
-$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-ll
-clear
-ll
-clear
-ll
-clear
-ll
-cd Desktop/
-ll
-clear
-cd generator-test
-npm link
-yo test
+clEAR
+cleare
+cleart
+dpkg -i --force-all hyper-1.1.0.deb
+ echo Attempting to open ~/.hyper.js with your \$EDITOR
+ echo If it fails, open it manually with your favorite editor!
+exit
+fish
+flow-typed install
+git add --a;;
+git add -A
+git add --al
+git add all
+git add --all
+git add --all "Attempt to fix weird tabs inside webpack.config.babel.js"
+git branch
+git checkout .
+git checkout dist/bundle.js
+git checkout gh-pages
+git checkout improvement/UICORE-12
+git checkout improvement/UICORE-9
+git checkout master
+git checkout redux
+git checkout TabbedMenu-DisabledTab
+git checkout TabbedMenu-FloatRight
+git checkout tabbed-menu-onclick
+git clone git@github.com:enriquecaballero/react-app-boilerplate.git .
+git clone git@github.com:enriquecaballero/react-hello-world.git
+git clone git@github.com:enriquecaballero/react-hello-world.git react-flipper-alt
+git clone ssh://git@bitbucket.visionist:7999/nano/nanostorm-aoi-component.git Module
+git clone ssh://git@bitbucket.visionist:7999/nano/nanostorm-aoi-component.git Module/
+git clone ssh://git@bitbucket.visionist:7999/nano/nanostorm-core.git
+git commit -m "Added demo link to README.md"
+git commit -m "Added FlowType annotation at the top of every Example in each README"
+git commit -m "Added FlowType to READMEs"
+git commit -m "Added missing dev dependencies"
+git commit -m "Added more FlowType throughout..."
+git commit -m "Adding bundles"
+git commit -m "Attempt to fix weird tabs inside webpack.config.babel.js"
+git commit -m "Changed a few variable names inside the webpack config files for easier reading"
+git commit -m "Cleaned up a bit, and added some more Flow type checking"
+git commit -m "Cleaned up the code bit and added a success callback to generators"
+git commit -m "Created GitHub Page"
+git commit -m "Created Map component"
+git commit -m "Dialog was pointing to its README and not its folder inside the repo"
+git commit -m "Fixed spacing"
+git commit -m "Improving README"
+git commit -m "Initial commit"
+git commit -m "Made some comment changes"
+git commit -m "Made some directory changes and updated README.md"
+git commit -m "Merging from master"
+git commit -m "README and Example are now optional for Component generator"
+git commit -m "Removed prefixed underscore for the generated README.md (would previously generate _README.md)"
+git commit -m "Resolves UICORE-12"
+git commit -m "Resolves UICORE-9"
+git commit -m "Updated package.json"
+git commit -m "Updated README.md"
+git commit -m "Update General.less"
+git diff
+git diff webpack.config.babel.js
+git fetch
+git fetch github
+git init
+git log
+git merge master
+git origin -v
+git pull
+git push
+git push && npm publish
+git pushu
+git push -u origin master
+git remote add origin git@github.com:enriquecaballero/react-app-boilerplate.git
+git remote add origin git@gitlab.com:enriquecaballero/react-flipper.git
+git remote add origin React 'flipper' component that is agnostic to the height of its tiles, resizing accordingly. No jQuery.
+git remote add origin ssh://git@bitbucket.visionist:7999/nano/generator-nanostorm.git
+git remote prune origin
+git remote remove origin
+git remote -v
+git reset
+git reset --hard origin/master
+git status
+git subtree push --prefix dist origin bitbucket-pages
+git subtree push --prefix dist origin bitbucket-pages --force
+git subtree push --prefix dist origin gh-pages
+git subtree push --prefix --force  dist origin bitbucket-page
+gti commit -m "README and Example are now optional for Component generator"
 kk
 ll
-vim dummyfile.txt 
-rm -rf dummyfile.txt 
-rm ~/Library/Preferences/com.apple.Terminal.plist 
-exit
-rm -rf /bin/zsh 
-cd zsh
-cd /bin/zsh 
-ll
-cd /bin/zsh 
-cd /bin/
-ll
-brew
-brew search oh-my-zsh
+ll ~/
+ll;
+LL
+mkdir _ui
+move ui_/ ui_alt
+mv generator-component/ generator-nanostorm/
+mv _ui/ ui_
+mv ui_/ ui_alt/
+mv yeoman/generator-nanostorm/ nanostorm/
+nanostorm-core/
+ncu
+ncu -a
+ncu -a/--upgradeAll
+ncu -u
+ncu -u -a
+node -v
+npm-check-modules
+npm-check-updates
+npm-check-updates -u
+npm i
+npm i -G generator-nanostorm
+npm i -g npm-check-updates
+npm i -G yo generator-generator
+npm install
+npm install empty
+npm install -g flow-typed
+npm install --global yo generator
+npm install -g npm-check-updates
+$ npm install --save-dev flowtype-loader
+npm install --save-dev flowtype-loader
+npm i --save chalk yosay
+npm i --save-dev babel-pl
+npm i --save-dev babel-plugin-transform-class-properties
+npm i --save-dev babel-plugin-transform-object-rest-spread
+npm i --save-dev babel-preset-react
+npm i --save-dev css-loader
+npm i --save-dev less less-loader
+npm i --save-dev redux-devtools redux-devtools-log-monitor redux-devtools-dock-monitor
+npm i --save-dev redux-logger
+npm i --save-dev style-loader
+npm i --save-dev webpack
+npm i -S babel-plugin-transform-class-properties
+npm i -S classnames
+npm i -S empty
+npm i -S url-loader
+npm i -s webpack
+npm link
+npm publish
+npm root
+npm root -g
+npm run build
+npm run dev
+npm run d\ev
+npm run static
+$ npm start
+npm start
+npm starty
+npm statrt
+npm uninstall empty
+npm uninstall -g flow-typed
+npm uninstall --global generator-nanostorm
+npm uninstall --save classnames
+npm uninstall --save-dev babel-plugin-syntax-flow
+npm uninstall --save-dev babel-preset-react
+npm update
+npm -v
+npm version
+nvm
+nvm alias default
+nvm alias default 6
+nvm install 6
+nvm ls
+nvm uninstall 5.9.1
+nvm uninstall 6.0.0
+nvm uninstall 6.9.0
+nvm use 6
+open .
+open ~/.nvm/
+pwd
+rm dist/*
+rm lib/*
+rm ~/Library/Preferences/com.apple.Terminal.plist
+rm -rf
+rm -rf /bin/zsh
+rm -rf dist/*
+rm -rf dummyfile.txt
+rm -rf generator-nanostorm
+rm -rf .git
+rm -rf lib/*
+rm -rf Module
+rm -rf Module/
+rm -rf MyAwesomeComponent/
+rm -rf nanostorm-core/
+rm -rf nod
+rm -rf node_modules/
+rm -rf react-hello-world/
+rm -rf ~/.wine/
+rm -rf .wine*
+rm webpack.config.babel.js
+$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-ll
-clear
-ll
-clear
-cd Sites/
-cd react-boilerplate/
-clear
-npm run dev
-ll
-clear
-cd Sites/
-ll
-clear
-cd react-
-cd react-boilerplate/
-ll
-atom .
-npm run dev
-cd Sites/
-ll
-clear
-cd react-boilerplate/
-ll
-clear
- echo Attempting to open ~/.hyper.js with your \$EDITOR
- echo If it fails, open it manually with your favorite editor!
- bash -c 'exec env ${EDITOR:=nano} ~/.hyper.js'
- echo Attempting to open ~/.hyper.js with your \$EDITOR
- echo If it fails, open it manually with your favorite editor!
- bash -c 'exec env ${EDITOR:=nano} ~/.hyper.js'
- echo Attempting to open ~/.hyper.js with your \$EDITOR
- echo If it fails, open it manually with your favorite editor!
- bash -c 'exec env ${EDITOR:=nano} ~/.hyper.js'
-ll
-clear
-cd Sites/react-boilerplate/
-npm run dev
-exit
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+Should be up
+source ~/.bashrc
+sudo apt-get fish
+sudo apt-get install fish
+sudo apt-get install git-core
+sudo apt-get install winetricks
+sudo apt-get install zsh
+sudo apt-get zsh
+sudo atom /etc/passwd
+sudo chsh -s `which zsh`
+sudo chsh userid
+sudo chsh $(whoami)
+sudo dpkg -i hyper-1.1.0.deb
+sudo su
+sudo vi /etc/passwd
+sudo vi /etc/passwd\
+sudo vim /etc/shells
+vim dummyfile.txt
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 which zsh
-chsh -s /usr/local/bin/zsh
-chsh -s /usr/local/bin/zsh
-exit
-chsh -s /usr/local/bin/zsh
-chsh -s /bin/zsh
-exit
-cd /usr/local/
-ll
-clear
-cd bin/
-ll
-chsh -s /usr/local/bin/zsh
-chsh -s /usr/local/bin/zsh
-chsh -s /usr/local/bin/zsh
-brew uninstall zsh
-brew install zsh
-chsh -s /usr/local/bin/zsh
-exit
-sudo vim /etc/shells
-sudo vim /etc/shells
+whoami
+wine
+wine 1password
+wine 1Password-4.6.1.617.exe
+wine AgileBits.OnePassword.Desktop-6.2.333.msi
+WINEARCH=win32 WINEPREFIX=~/.wine32 winetricks dotnet40
+wine --help
+wine msiexec /i AgileBits.OnePassword.Desktop-6.2.333.msi
+xkill
+yo
+yo generator
+yo nanostorm
+yo test
+zsh
