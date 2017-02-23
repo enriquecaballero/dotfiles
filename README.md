@@ -21,7 +21,7 @@
 
   * Install to `~/.bashrc`
 
-## [.zshrc](./.zshrc) and [.oh-my-zsh](./oh-my-zsh)/custom
+## [.zshrc](./.zshrc) and [.oh-my-zsh/custom](./.oh-my-zsh/custom)
 
   * Install [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
   * Install [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh)
