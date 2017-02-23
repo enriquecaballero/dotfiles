@@ -11,6 +11,7 @@ packages: [
   "language-thrift"
   "linter"
   "linter-eslint"
+  "merge-conflicts"
   "minimap"
   "minimap-cursorline"
   "minimap-find-and-replace"
