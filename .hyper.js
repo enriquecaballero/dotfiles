@@ -41,12 +41,12 @@ module.exports = {
     // set to `true` if you're using a Linux set up
     // that doesn't shows native menus
     // default: `false` on Linux, `true` on Windows (ignored on macOS)
-    showHamburgerMenu: '',
+    showHamburgerMenu: true,
 
     // set to `false` if you want to hide the minimize, maximize and close buttons
     // additionally, set to `'left'` if you want them on the left, like in Ubuntu
     // default: `true` on windows and Linux (ignored on macOS)
-    showWindowControls: '',
+    showWindowControls: 'left',
 
     // custom padding (css format, i.e.: `top right bottom left`)
     padding: '12px 14px',
