@@ -1,7 +1,7 @@
 module.exports = {
   config: {
     // default font size in pixels for all tabs
-    fontSize: 13,
+    fontSize: 14,
 
     // font family with optional fallbacks
     fontFamily: 'Andale Mono, monospace',
@@ -22,7 +22,11 @@ module.exports = {
     borderColor: '#333',
 
     // custom css to embed in the main window
-    css: ``,
+    css: `
+      .splitpane_divider {
+        background-color: rgba(255,255,255,0.065) !important;
+      }
+    `,
 
     // custom css to embed in the terminal window
     termCSS: `
@@ -71,7 +75,7 @@ module.exports = {
 
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
     // if left empty, your system's login shell will be used by default
-    shell: '',
+    shell: '/usr/local/bin/zsh',
 
     // for setting shell arguments (i.e. for using interactive shellArgs: ['-i'])
     // by default ['--login'] will be used
