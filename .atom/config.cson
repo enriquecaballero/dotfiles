@@ -14,7 +14,6 @@
         "BUCK"
       ]
     disabledPackages: [
-      "wrap-guide"
       "linter"
     ]
     telemetryConsent: "limited"
@@ -22,14 +21,10 @@
     confirmCheckoutHeadRevision: false
     fontFamily: "Operator Mono"
     fontSize: 15
-    invisibles: {}
     showIndentGuide: true
-    softWrapHangingIndent: 2
     tabType: "soft"
   "exception-reporting":
     userId: "8826e7f6-5ee6-c9eb-ee45-6407271a1903"
-  "git-projects":
-    rootPath: "/Users/enriquecaballero/Sites;/Users/enriquecaballero/Desktop"
   linter: {}
   "linter-eslint": {}
   minimap:
@@ -78,24 +73,9 @@
     use:
       "nuclide-file-tree": false
       "nuclide-side-bar": false
-  "one-dark-ui":
-    tabSizing: "Even"
   "package-sync":
     createOnChange: true
     forceOverwrite: true
-  "platformio-ide-terminal":
-    core:
-      shell: "/usr/local/bin/zsh"
-    style:
-      animationSpeed: 0
-      fontFamily: "Andale Mono"
-      fontSize: "12"
-      theme: "pro"
-  "terminal-plus":
-    core: {}
-    style: {}
-    toggles:
-      autoClose: true
   "tool-bar":
     position: "Left"
   welcome:
