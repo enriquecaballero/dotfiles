@@ -1,6 +1,6 @@
 # Enrique Caballero's dotfiles
 
-## [.atom](https://github.com/enriquecaballero/dotfiles/tree/master/.atom)
+## [.atom](./.atom)
 
 * Download [Atom](https://atom.io)
 * Install to `~/.atom`
@@ -8,31 +8,33 @@
 * Run `$ apm install package-sync` to install package that installs packages off `packages.cson`
 * Install packages `Packages > Package Sync > Sync Packages`
 
-## [.gitconfig](https://raw.github.com/enriquecaballero/dotfiles/master/.gitconfig)
+## [.gitconfig](./.gitconfig)
 
   * Install to `~/.gitconfig`
   * List of all available variables is [here](http://git-scm.com/docs/git-config#_variables).
 
-## [.bash_profile](https://raw.github.com/enriquecaballero/dotfiles/master/.bash_profile)
+## [.bash_profile](./.bash_profile)
 
   * Install to `~/.bash_profile`
 
-## [.bashrc](https://raw.github.com/enriquecaballero/dotfiles/master/.bashrc)
+## [.bashrc](./.bashrc)
 
   * Install to `~/.bashrc`
 
-## [.zshrc](https://raw.github.com/enriquecaballero/dotfiles/master/.zshrc)
+## [.zshrc](./.zshrc) and [.oh-my-zsh](./oh-my-zsh)/custom
 
   * Install [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
   * Install [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh)
+  * Install the oh-my-zsh plugins (submodules to this repository) `git submodule update --recursive --init`
   * Install to `~/.zshrc`
+  * Install to `~/.oh-my-zsh/custom`
 
-### [.hyper.js](https://raw.github.com/enriquecaballero/dotfiles/master/.hyper.js)
+### [.hyper.js](./.hyper.js)
 
 * Install [Hyper](https://hyper.is)
 * Install to `~/.hyper.js`
 
-### [.hyper_plugins](https://raw.github.com/enriquecaballero/dotfiles/master/.hyper_plugins)
+### [.hyper_plugins](./.hyper_plugins)
 
   * Install [hpm](https://github.com/zeit/hpm) (optional but recommended)
   * Install to `~/.hyper_plugins`
