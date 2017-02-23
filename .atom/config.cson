@@ -21,6 +21,7 @@
     confirmCheckoutHeadRevision: false
     fontFamily: "Operator Mono"
     fontSize: 15
+    preferredLineLength: 100000000
     showIndentGuide: true
     tabType: "soft"
   "exception-reporting":
