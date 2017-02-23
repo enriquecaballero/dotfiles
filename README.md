@@ -24,9 +24,9 @@
 ## [.zshrc](./.zshrc) and [.oh-my-zsh/custom](./.oh-my-zsh/custom)
 
   * Install [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+  * Ensure `zsh` is in path `/usr/local/bin/zsh` -- create symlinks from current path if not (required for use with Hyper).
   * Install [Oh-My-Zsh](https://github.com/robbyrussell/oh-my-zsh)
   * Install the oh-my-zsh plugins (submodules to this repository) `git submodule update --recursive --init`
-  * Ensure `zsh` is in path `/usr/local/bin/zsh` - create symlinks from current path if not (for Hyper)
   * Install to `~/.zshrc`
   * Install to `~/.oh-my-zsh/custom`
 
