@@ -20,6 +20,9 @@
   editor:
     fontFamily: "Operator Mono"
     fontSize: 15
+    preferredLineLength: 100000000
+    showIndentGuide: true
+    tabType: "soft"
   "exception-reporting":
     userId: "f1a6ed5f-713c-4a54-859a-805517785979"
   minimap:
