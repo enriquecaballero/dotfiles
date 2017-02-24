@@ -325,3 +325,10 @@ yo generator
 yo nanostorm
 yo test
 zsh
+rm .zsh_history 
+ll
+la
+ls -la
+ln -s ~/dotfiles/.zsh_history ~/
+la
+ls -la
