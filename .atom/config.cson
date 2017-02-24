@@ -18,16 +18,10 @@
     ]
     telemetryConsent: "limited"
   editor:
-    confirmCheckoutHeadRevision: false
     fontFamily: "Operator Mono"
     fontSize: 15
-    preferredLineLength: 100000000
-    showIndentGuide: true
-    tabType: "soft"
   "exception-reporting":
-    userId: "8826e7f6-5ee6-c9eb-ee45-6407271a1903"
-  linter: {}
-  "linter-eslint": {}
+    userId: "f1a6ed5f-713c-4a54-859a-805517785979"
   minimap:
     plugins:
       cursorline: true
@@ -45,35 +39,13 @@
       "split-diff": true
       "split-diffDecorationsZIndex": 0
   nuclide:
-    installRecommendedPackages: true
-    "nuclide-adb-logcat": {}
-    "nuclide-arcanist": {}
-    "nuclide-buck": {}
-    "nuclide-clang": {}
-    "nuclide-console": {}
-    "nuclide-datatip": {}
-    "nuclide-debugger-native": {}
-    "nuclide-debugger-node": {}
-    "nuclide-debugger-php": {}
-    "nuclide-definition-preview": {}
-    "nuclide-diagnostics-ui":
-      showDiagnosticTraces: true
     "nuclide-flow":
       canUseFlowBin: true
-    "nuclide-hack": {}
-    "nuclide-health": {}
+      warnOnNotInstalled: false
     "nuclide-home":
       showHome: false
-    "nuclide-ios-simulator-logs": {}
-    "nuclide-ocaml": {}
-    "nuclide-python": {}
-    "nuclide-react-native": {}
-    "nuclide-related-files": {}
-    "nuclide-remote-projects": {}
-    "nuclide-swift": {}
     use:
       "nuclide-file-tree": false
-      "nuclide-side-bar": false
   "package-sync":
     createOnChange: true
     forceOverwrite: true
