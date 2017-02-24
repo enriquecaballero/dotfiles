@@ -35,7 +35,7 @@
 
 #### Note
 
-Ensure `zsh` is in located in `/usr/local/bin/zsh`. Create symlinks from current location if not; this is necessary for Hyper to locate your `zsh` installation on both Linux and macOS (see [.hyper.js](./.hyper.js)).
+Ensure `zsh` is in located in `/usr/local/bin/zsh`. Create symlinks from current location if not; this is necessary for Hyper to locate your `zsh` installation on both Linux and macOS (see [.hyper.js:78](./.hyper.js#L78)).
 
 ## [.zsh_history](./.zsh_history)
   * Install to `~/.zsh_history`
