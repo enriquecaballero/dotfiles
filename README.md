@@ -21,10 +21,6 @@
 
   * Install to `~/.bashrc`
 
-## [.bash_history](.bash_history)
-
-  * Install to `~/.bash_history`
-
 ## [.zshrc](.zshrc) and [.oh-my-zsh/custom](.oh-my-zsh/custom)
 
   * Install [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
@@ -36,9 +32,6 @@
 #### Note
 
 Ensure `zsh` is in located in `/usr/local/bin/zsh`. Create symlinks from current location if not; this is necessary for Hyper to locate your `zsh` installation on both Linux and macOS (see [.hyper.js:78](.hyper.js#L78)).
-
-## [.zsh_history](.zsh_history)
-  * Install to `~/.zsh_history`
 
 ## [.hyper.js](.hyper.js)
 
