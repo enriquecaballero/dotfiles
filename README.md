@@ -33,6 +33,13 @@
 
 Ensure `zsh` is in located in `/usr/local/bin/zsh`. Create symlinks from current location if not; this is necessary for Hyper to locate your `zsh` installation on both Linux and macOS (see [.hyper.js:78](.hyper.js#L78)).
 
+## [.iterm]('.iterm/com.googlecode.iterm2.plist')
+
+* Install [iTerm2](http://www.iterm2.com)
+* In `iTerm > Preferences > General` check the box that says `Load preferences from a custom folder or URL`
+* Add in `<path/to/dotfiles>/.iterm`
+
+
 ## [.hyper.js](.hyper.js)
 
 * Install [Hyper](https://hyper.is)
