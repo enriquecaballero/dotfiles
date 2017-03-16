@@ -1,6 +1,6 @@
 # Enrique Caballero's dotfiles
 
-For ease of use, these config files are managed using [Stow](http://www.gnu.org/software/stow/).
+For ease of use, these config files are managed using [Stow](http://www.gnu.org/software/stow/)
 
 ## Install Stow
 
@@ -8,6 +8,7 @@ For ease of use, these config files are managed using [Stow](http://www.gnu.org/
 ```
 brew install stow
 ```
+
 * GNU/Linux
 ```
 apt-get install stow
@@ -32,14 +33,17 @@ apt-get install stow
 * Install packages using package-sync `Packages > Package Sync > Sync Packages`
 * Wait until all packages are installed and restart Atom
 
+
 ## [Git](git)
 
 * Create symlink `stow git`
 * List of all available variables is [here](http://git-scm.com/docs/git-config#_variables)
 
+
 ## [Bash](bash)
 
 * Create symlink `stow bash`
+
 
 ## [ZSH and Oh My Zsh](zsh)
 
@@ -47,9 +51,11 @@ apt-get install stow
 * Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) and its plugins `git submodule update --recursive --init`
 * Create symlink `stow zsh`
 
-Ensure `zsh` is in located in `/usr/local/bin/zsh` by running `which zsh`. Create symlinks from current location if not. This is necessary for Hyper to locate your `zsh` installation on both Linux _and_ macOS (see [.hyper.js:78](hyper/.hyper.js#L78)).
+Ensure `zsh` is in located in `/usr/local/bin/zsh` by running `which zsh`. Create symlinks from current location if not. This is necessary for Hyper to locate your `zsh` installation on both Linux _and_ macOS (see [.hyper.js:78](hyper/.hyper.js#L78))
 
-## [iTerm](iterm/.iterm/com.googlecode.iterm2.plist)
+Oh My Zsh and its plugins have been included in this repository as [submodules](.gitmodules).
+
+## [iTerm](iterm)
 
 * Install [iTerm2](http://www.iterm2.com)
 * Create symlink `stow iterm`
