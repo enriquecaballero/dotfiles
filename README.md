@@ -41,7 +41,7 @@ apt-get install stow
 
 * Create symlink `stow bash`
 
-## [ZSH](zsh/.zshrc) and [Oh My Zsh](zsh/.oh-my-zsh)
+## [ZSH and Oh My Zsh](zsh)
 
 * Install [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 * Install [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
