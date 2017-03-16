@@ -52,6 +52,8 @@
   "package-sync":
     createOnChange: true
     forceOverwrite: true
+  "prettier-atom":
+    useEslint: true
   "tool-bar":
     position: "Left"
   welcome:

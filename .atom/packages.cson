@@ -17,6 +17,7 @@ packages: [
   "nuclide-format-js"
   "package-sync"
   "pigments"
+  "prettier-atom"
   "sort-lines"
   "split-diff"
   "tool-bar"
