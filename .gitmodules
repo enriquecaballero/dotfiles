@@ -7,6 +7,3 @@
 [submodule "zsh/.oh-my-zsh/custom/plugins/zsh-autosuggestions"]
 	path = zsh/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 	url = git://github.com/zsh-users/zsh-autosuggestions
-[submodule "zsh/.oh-my-zsh/custom/themes/spaceship-zsh-theme"]
-	path = zsh/.oh-my-zsh/custom/themes/spaceship-zsh-theme
-	url = git@github.com:denysdovhan/spaceship-zsh-theme.git
