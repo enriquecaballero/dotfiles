@@ -1,3 +1,0 @@
-[submodule "zsh/.oh-my-zsh/custom/themes/spaceship-zsh-theme"]
-	path = zsh/.oh-my-zsh/custom/themes/spaceship-zsh-theme
-	url = git@github.com:denysdovhan/spaceship-zsh-theme.git
