@@ -65,4 +65,4 @@ Ensure `zsh` is in located in `/usr/local/bin/zsh` by running `which zsh`. Creat
 
 * Install [Hyper](https://hyper.is)
 * Create symlink `stow hyper`
-* Install plugins `cd ~/.hyper_plugins && npm install`
+* Install plugins `cd ~/.hyper_plugins && yarn`
