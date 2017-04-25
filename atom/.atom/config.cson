@@ -16,6 +16,7 @@
     disabledPackages: [
       "linter"
     ]
+    packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
   editor:
     fontFamily: "Operator Mono"
@@ -53,7 +54,8 @@
     createOnChange: true
     forceOverwrite: true
   "prettier-atom":
-    useEslint: true
+    formatOnSaveOptions: {}
+    silenceErrors: true
   "tool-bar":
     position: "Left"
   welcome:
