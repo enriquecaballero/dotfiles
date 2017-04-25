@@ -1,4 +1,5 @@
 packages: [
+  "cursor-history"
   "file-icons"
   "highlight-selected"
   "language-babel"
