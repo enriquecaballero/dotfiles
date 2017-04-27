@@ -1,6 +1,5 @@
 packages: [
   "color-picker"
-  "cursor-history"
   "file-icons"
   "highlight-selected"
   "language-babel"
