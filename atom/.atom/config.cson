@@ -16,6 +16,7 @@
     disabledPackages: [
       "linter"
     ]
+    excludeVcsIgnoredPaths: false
     packagesWithKeymapsDisabled: []
     telemetryConsent: "limited"
   editor:
@@ -26,6 +27,7 @@
     tabType: "soft"
   "exception-reporting":
     userId: "f1a6ed5f-713c-4a54-859a-805517785979"
+  "git-diff": {}
   minimap:
     plugins:
       cursorline: true
@@ -43,18 +45,26 @@
       "split-diff": true
       "split-diffDecorationsZIndex": 0
   nuclide:
+    "nuclide-diagnostics-ui": {}
+    "nuclide-distraction-free-mode":
+      hideFindAndReplace: true
+      hideStatusBar: true
     "nuclide-flow":
       canUseFlowBin: true
       warnOnNotInstalled: false
+    "nuclide-hg-repository": {}
     "nuclide-home":
       showHome: false
+    "nuclide-working-sets": {}
     use:
       "nuclide-file-tree": false
+  "one-dark-ui": {}
   "package-sync":
     createOnChange: true
     forceOverwrite: true
   "prettier-atom":
-    formatOnSaveOptions: {}
+    formatOnSaveOptions:
+      enabled: true
     silenceErrors: true
   "tool-bar":
     position: "Left"
