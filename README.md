@@ -53,12 +53,19 @@ apt-get install stow
 
 Ensure `zsh` is in located in `/usr/local/bin/zsh` by running `which zsh`. Create symlinks from current location if not. This is necessary for Hyper to locate your `zsh` installation on both Linux _and_ macOS (see [.hyper.js:78](hyper/.hyper.js#L78))
 
+
+## [wd](wd)
+
+* [`wd`](wd zsh) is already bundled with `oh-my-zsh`
+* Add the plugin in your `~/.zshrc` file `plugins=(... wd)`
+* Create symlink `stow wd`
+
 ## [iTerm](iterm)
 
 * Install [iTerm2](http://www.iterm2.com)
 * Create symlink `stow iterm`
 * In `iTerm > Preferences > General` check the box that says `Load preferences from a custom folder or URL`
-* Add in `<path/to/home>/.iterm`
+* Create symlink `stow iterm`
 
 
 ## [Hyper](hyper)
