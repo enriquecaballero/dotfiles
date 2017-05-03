@@ -89,9 +89,13 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1961 193 796 473 1920 0 1920 1177 </string>
+	<string>135 297 918 416 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>2310 708 670 428 1920 0 1920 1177 </string>
+	<string>0 5 1918 1172 0 0 1920 1177 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>0 5 1917 1172 0 0 1920 1177 </string>
+	<key>NSWindow Frame iTerm Window 2</key>
+	<string>238 178 670 428 0 0 1920 1177 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1226,6 +1230,8 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>16B46E0B-34BC-46A3-BCBA-35C0876AAFDC</string>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>511127415.99529302</real>
 	<key>OnlyWhenMoreTabs</key>
@@ -1276,13 +1282,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-03-13T20:15:43Z</date>
+	<date>2017-05-02T16:20:34Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>ShowNewOutputIndicator</key>
 	<true/>
 	<key>ShowPaneTitles</key>
@@ -1304,7 +1310,7 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.1.20170313-nightly</string>
+	<string>3.1.beta.2</string>
 	<key>kCPFavoritesUserDefaultsKey</key>
 	<array>
 		<data>
