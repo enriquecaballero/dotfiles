@@ -66,6 +66,7 @@
     formatOnSaveOptions:
       enabled: true
     silenceErrors: true
+    useEslint: true
   "tool-bar":
     position: "Left"
   welcome:
