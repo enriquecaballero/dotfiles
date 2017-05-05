@@ -63,7 +63,7 @@ ZSH_AUTOSUGGEST_STRATEGY="match_prev_cmd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting wd)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting wd yarn)
 
 source $ZSH/oh-my-zsh.sh
 
