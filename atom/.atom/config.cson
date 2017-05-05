@@ -67,6 +67,7 @@
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
+    prettierOptions: {}
     silenceErrors: true
     useEslint: true
   "tool-bar":
