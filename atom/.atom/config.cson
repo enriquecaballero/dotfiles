@@ -28,6 +28,8 @@
   "exception-reporting":
     userId: "f1a6ed5f-713c-4a54-859a-805517785979"
   "git-diff": {}
+  "git-projects":
+    rootPath: "~/Developer;~/go"
   minimap:
     plugins:
       cursorline: true

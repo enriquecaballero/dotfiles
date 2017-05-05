@@ -1,6 +1,7 @@
 packages: [
   "color-picker"
   "file-icons"
+  "git-projects"
   "highlight-selected"
   "language-babel"
   "language-graphql"
