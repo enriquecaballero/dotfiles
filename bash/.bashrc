@@ -18,6 +18,7 @@ fi
 
 # Aliases can be placed here
 # For a full list of active aliases, run `alias`
+alias aliases="less ~/.bashrc | grep alias --color=never"
 alias ll="ls -lh"
 alias l.="ls -d .*"
 alias ports="lsof -Pn -i4 | grep LISTEN"
