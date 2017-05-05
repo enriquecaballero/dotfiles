@@ -23,7 +23,7 @@ alias l.="ls -d .*"
 alias ports="lsof -Pn -i4 | grep LISTEN"
 alias root="sudo -i"
 alias size="du -h"
-alias delete="rm -vfr"
+alias delete="rm -rf"
 
 # Toggles hidden files visibility in macOS Finder (macOS only)
 # If `TRUE`, hidden files become visible; if `FALSE` they become invisible
