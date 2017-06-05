@@ -25,6 +25,7 @@ alias ports="lsof -Pn -i4 | grep LISTEN"
 alias root="sudo -i"
 alias size="du -h"
 alias delete="rm -rf"
+alias commit="yarn cz"
 
 # Toggles hidden files visibility in macOS Finder (macOS only)
 # If `TRUE`, hidden files become visible; if `FALSE` they become invisible
