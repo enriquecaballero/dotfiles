@@ -1,5 +1,6 @@
 "*":
   core:
+    closeDeletedFileTabs: true
     customFileTypes:
       "source.ini": [
         ".buckconfig"
@@ -22,14 +23,15 @@
   editor:
     fontFamily: "Operator Mono"
     fontSize: 15
-    preferredLineLength: 100000000
     showIndentGuide: true
     tabType: "soft"
   "exception-reporting":
     userId: "f1a6ed5f-713c-4a54-859a-805517785979"
+  "file-icons": {}
   "git-diff": {}
   "git-projects":
     rootPath: "~/Developer;~/go"
+    sortBy: "Latest modification date"
   minimap:
     plugins:
       cursorline: true
@@ -67,9 +69,14 @@
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
+      showInStatusBar: true
     prettierOptions: {}
     silenceErrors: true
     useEslint: true
+  "split-diff":
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
   "tool-bar":
     position: "Left"
   welcome:
