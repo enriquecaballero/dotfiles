@@ -1,7 +1,7 @@
 # Loads `nvm`
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-
+  . "/usr/local/opt/nvm/nvm.sh"
+  
 # Adds `yarn` (global) installed bins to PATH
 export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
