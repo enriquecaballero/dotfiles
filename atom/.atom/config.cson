@@ -53,9 +53,7 @@
     "nuclide-distraction-free-mode":
       hideFindAndReplace: true
       hideStatusBar: true
-    "nuclide-flow":
-      canUseFlowBin: true
-      warnOnNotInstalled: false
+    "nuclide-flow": {}
     "nuclide-hg-repository": {}
     "nuclide-home":
       showHome: false
