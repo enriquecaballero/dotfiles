@@ -1,4 +1,5 @@
 packages: [
+  "color-picker"
   "file-icons"
   "git-projects"
   "highlight-selected"

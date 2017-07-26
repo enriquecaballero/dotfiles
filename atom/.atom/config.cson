@@ -32,6 +32,7 @@
   "git-projects":
     rootPath: "~/Developer;~/go"
     sortBy: "Latest modification date"
+  "linter-eslint": {}
   minimap:
     plugins:
       cursorline: true
@@ -60,6 +61,7 @@
     "nuclide-working-sets": {}
     use:
       "nuclide-file-tree": false
+      "nuclide-flow": false
   "one-dark-ui": {}
   "package-sync":
     createOnChange: true
@@ -69,7 +71,6 @@
       enabled: true
       showInStatusBar: true
     prettierOptions: {}
-    silenceErrors: true
     useEslint: true
   "split-diff":
     ignoreWhitespace: true
