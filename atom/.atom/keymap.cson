@@ -35,6 +35,7 @@
   'ctrl-o':     'cursor-history:prev'
   'ctrl-cmd-i': 'cursor-history:next-within-editor'
   'ctrl-cmd-o': 'cursor-history:prev-within-editor'
+  'shift-alt-p': 'git-projects:toggle-add'
 
 '.tree-view':
   'o': 'git-projects:toggle-add'
