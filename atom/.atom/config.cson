@@ -4,7 +4,8 @@
     ignored: [
       "linter"
     ]
-  "autocomplete-modules": {}
+  "autocomplete-modules":
+    babelPluginModuleResolver: true
   "autocomplete-paths":
     suggestionPriority: 0
   core:
@@ -26,8 +27,10 @@
     excludeVcsIgnoredPaths: false
     openEmptyEditorOnStart: false
     telemetryConsent: "limited"
+    titleBar: "hidden"
+  "cursor-history": {}
   editor:
-    fontFamily: "Operator Mono Book"
+    fontFamily: "Operator Mono"
     fontSize: 15
     showIndentGuide: true
     tabType: "soft"
@@ -43,7 +46,24 @@
   "git-projects":
     rootPath: "~/Developer;~/go"
     sortBy: "Latest modification date"
+  hyperclick:
+    win32TriggerKeys: "metaKey"
+  "js-hyperclick":
+    extensions: [
+      ".js"
+      ".json"
+      ".node"
+      ".jsx"
+    ]
+    jumpToImport: true
+    skipIntermediate: false
+    usePendingPanes: true
   "linter-eslint": {}
+  "linter-ui-default":
+    decorateOnTreeView: "None"
+    gutterPosition: "Left"
+    panelHeight: 350
+    useBusySignal: false
   "linter-ui-plus": {}
   minimap:
     plugins:
