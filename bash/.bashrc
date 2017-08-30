@@ -1,7 +1,7 @@
 # Loads `nvm`
 export NVM_DIR="$HOME/.nvm"
   . "/usr/local/opt/nvm/nvm.sh"
-  
+
 # Adds `yarn` (global) installed bins to PATH
 export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
@@ -23,7 +23,7 @@ alias ll="ls -lh"
 alias l.="ls -d .*"
 alias ports="lsof -Pn -i4 | grep LISTEN"
 alias root="sudo -i"
-alias size="du -h"
+alias size="du -sh"
 alias delete="rm -rf"
 
 # Toggles hidden files visibility in macOS Finder (macOS only)
