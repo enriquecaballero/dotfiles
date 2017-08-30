@@ -46,6 +46,8 @@
   "git-projects":
     rootPath: "~/Developer;~/go"
     sortBy: "Latest modification date"
+  "hey-pane":
+    expandedWidth: 80
   hyperclick:
     win32TriggerKeys: "metaKey"
   "js-hyperclick":

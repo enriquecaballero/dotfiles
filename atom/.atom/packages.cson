@@ -5,6 +5,7 @@ packages: [
   "cursor-history"
   "file-icons"
   "git-projects"
+  "hey-pane"
   "highlight-selected"
   "hyperclick"
   "intentions"
