@@ -83,10 +83,15 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>727 291 796 473 0 0 1680 1027 </string>
+	<string>549 329 796 473 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>428 272 670 428 0 0 1680 1027 </string>
+	<string>405 577 670 428 0 0 1680 1027 </string>
 	<key>NeverWarnAboutShortLivedSessions_2A329C26-8F5B-45AF-B64A-9985F459F777</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_2A329C26-8F5B-45AF-B64A-9985F459F777_selection</key>
@@ -860,7 +865,7 @@
 			<key>Columns</key>
 			<integer>80</integer>
 			<key>Command</key>
-			<string>/usr/local/bin/zsh</string>
+			<string>/bin/zsh</string>
 			<key>Cursor Boost</key>
 			<real>0.0</real>
 			<key>Cursor Color</key>
@@ -892,7 +897,7 @@
 			<key>Cursor Type</key>
 			<integer>2</integer>
 			<key>Custom Command</key>
-			<string>No</string>
+			<string>Yes</string>
 			<key>Custom Directory</key>
 			<string>No</string>
 			<key>Default Bookmark</key>
@@ -1228,7 +1233,9 @@
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>0</integer>
+	<integer>1</integer>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>519189099.753824</real>
 	<key>OnlyWhenMoreTabs</key>
@@ -1267,7 +1274,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/enriquecaballero/.iterm/</string>
+	<string>/Users/enriquecaballero/.dotfiles/iterm/.iterm/</string>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUEnableAutomaticChecks</key>
