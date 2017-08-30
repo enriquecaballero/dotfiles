@@ -3,6 +3,7 @@ packages: [
   "autocomplete-modules"
   "autocomplete-paths"
   "cursor-history"
+  "emmet"
   "file-icons"
   "git-projects"
   "highlight-selected"

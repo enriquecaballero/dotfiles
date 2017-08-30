@@ -39,3 +39,6 @@
 
 '.tree-view':
   'o': 'git-projects:toggle-add'
+
+'atom-text-editor[data-grammar~="jsx"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'
