@@ -25,13 +25,22 @@
         "BUCK"
       ]
     excludeVcsIgnoredPaths: false
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "node_modules"
+    ]
     openEmptyEditorOnStart: false
     telemetryConsent: "limited"
     titleBar: "hidden"
   "cursor-history": {}
   editor:
     fontFamily: "Operator Mono"
-    fontSize: 15
     showIndentGuide: true
     tabType: "soft"
   "exception-reporting":
@@ -60,13 +69,17 @@
     jumpToImport: true
     skipIntermediate: false
     usePendingPanes: true
+  linter: {}
   "linter-eslint": {}
   "linter-ui-default":
     decorateOnTreeView: "None"
     gutterPosition: "Left"
-    panelHeight: 350
+    panelHeight: 157
+    tooltipFollows: "Mouse"
     useBusySignal: false
   "linter-ui-plus": {}
+  "linter-xo":
+    fixOnSave: true
   minimap:
     plugins:
       cursorline: true
@@ -104,7 +117,6 @@
     notifyReloads: false
   "prettier-atom":
     formatOnSaveOptions:
-      enabled: true
       showInStatusBar: true
     prettierOptions: {}
     useEslint: true

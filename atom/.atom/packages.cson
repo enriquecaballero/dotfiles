@@ -11,6 +11,8 @@ packages: [
   "intentions"
   "js-hyperclick"
   "language-babel"
+  "language-docker"
+  "language-nginx"
   "linter"
   "linter-eslint"
   "linter-ui-default"
