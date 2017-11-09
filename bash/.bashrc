@@ -28,6 +28,6 @@ alias delete="rm -rf"
 
 # Toggles hidden files visibility in macOS Finder (macOS only)
 # If `TRUE`, hidden files become visible; if `FALSE` they become invisible
-hiddenfiles () {
+hidden-files () {
   defaults write com.apple.finder AppleShowAllFiles $1; killall Finder
 }
