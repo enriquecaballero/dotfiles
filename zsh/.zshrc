@@ -12,7 +12,7 @@ export ZSH=$HOME/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="geoffgarside"
 ZSH_THEME="spaceship-zsh-theme/spaceship"
-SPACESHIP_PROMPT_SYMBOL="$"
+SPACESHIP_CHAR_SYMBOL="$ "
 SPACESHIP_DIR_TRUNC=1
 SPACESHIP_DOCKER_SHOW="false"
 SPACESHIP_GIT_STATUS_DELETED="-"
