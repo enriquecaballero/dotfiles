@@ -60,13 +60,6 @@ Ensure `zsh` is in located in `/usr/local/bin/zsh` by running `which zsh`. Creat
 * Add the plugin in your `~/.zshrc` file `plugins=(... wd)`
 * Create symlink `stow wd`
 
-## [iTerm](iterm)
-
-* Install [iTerm2](http://www.iterm2.com)
-* Create symlink `stow iterm`
-* In `iTerm > Preferences > General` check the box that says `Load preferences from a custom folder or URL`
-* Create symlink `stow iterm`
-
 
 ## [Hyper](hyper)
 
