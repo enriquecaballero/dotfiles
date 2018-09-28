@@ -24,16 +24,6 @@ apt-get install stow
 
 ---
 
-## [Atom](atom)
-
-* Download [Atom](https://atom.io)
-* If on macOS, ensure the Atom CLI is installed `Atom > Install Shell Commands`
-* Create symlink `stow atom`
-* Install [package-sync](https://atom.io/packages/package-sync) using either the GUI or CLI `apm install package-sync`
-* Install packages using package-sync `Packages > Package Sync > Sync Packages`
-* Wait until all packages are installed and restart Atom
-
-
 ## [Git](git)
 
 * Create symlink `stow git`
@@ -52,10 +42,3 @@ apt-get install stow
 * Create symlink `stow zsh`
 
 Ensure `zsh` is in located in `/usr/local/bin/zsh` by running `which zsh`. Create symlinks from current location if not. This is necessary for Hyper to locate your `zsh` installation on both Linux _and_ macOS (see [.hyper.js:78](hyper/.hyper.js#L78))
-
-
-## [wd](wd)
-
-* [`wd`](https://github.com/mfaerevaag/wd) is already bundled with `oh-my-zsh`
-* Add the plugin in your `~/.zshrc` file `plugins=(... wd)`
-* Create symlink `stow wd`
