@@ -16,6 +16,7 @@ SPACESHIP_CHAR_SYMBOL="$ "
 SPACESHIP_DIR_TRUNC=3
 SPACESHIP_DOCKER_SHOW="false"
 SPACESHIP_GIT_STATUS_DELETED="-"
+SPACESHIP_GIT_SYMBOL=""
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
