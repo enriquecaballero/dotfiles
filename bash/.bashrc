@@ -3,6 +3,11 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
   #[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
+# Loads pyenv
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
 # Adds `yarn` (global) installed bins to PATH
 export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
@@ -30,3 +35,18 @@ alias ports="lsof -Pn -i4 | grep LISTEN"
 alias root="sudo -i"
 alias size="du -sh"
 alias delete="rm -rf"
+
+# https://github.com/pyenv/pyenv/issues/1737#issuecomment-738080459
+# For compilers to find Homebrew bzip2 and zlib installations:
+export LDFLAGS="-L/usr/local/opt/zlib/lib -L/usr/local/opt/bzip2/lib"
+export CPPFLAGS="-I/usr/local/opt/zlib/include -I/usr/local/opt/bzip2/include"
+
+export GPG_TTY=$(tty)
+
+eval "$(rbenv init -)"
+
+# Switch versions of Java
+function jenv() {
+  export JAVA_HOME=$(/usr/libexec/java_home -v $1)
+  java -version
+}
