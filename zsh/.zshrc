@@ -4,6 +4,9 @@
 # Sources .(bashrc|bash_profile) upon load
 [[ -e ~/.bashrc ]] && emulate sh -c 'source ~/.bashrc'
 
+# https://github.com/ohmyzsh/ohmyzsh/issues/6835
+ZSH_DISABLE_COMPFIX=true
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
