@@ -3,5 +3,10 @@
   smudge = git-lfs smudge %f
   required = true
 [user]
-  name = Enrique Caballero
-  email = ecaballerojr@icloud.com
+	name = Enrique Caballero
+	email = ecaballerojr@icloud.com
+	signingkey = 79648937D1983AA4
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = master
