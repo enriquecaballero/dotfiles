@@ -4,8 +4,12 @@ end
 
 set -gx GPG_TTY (tty)
 
-# Loads `nvm`
 set -Ux NVM_DIR $HOME/.nvm
+
+# Loads `nvm`
+function nvm
+  bass source /usr/local/opt/nvm/nvm.sh --no-use ';' nvm $argv
+end
 
 # https://github.com/pyenv/pyenv/issues/1737#issuecomment-738080459
 # For compilers to find Homebrew bzip2 and zlib installations:
