@@ -1,7 +1,19 @@
-# Loads `nvm` and nvm `bash_completion`
-export NVM_DIR="$HOME/.nvm"
-  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-  #[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+# Loads `nvm`
+# LOADED VIA ZSH PLUGIN 
+# nvm.sh location depends on installation method
+# if [ -s "/usr/local/opt/nvm/nvm.sh" ]; then # Homebrew installer location
+#   NVM_SH="/usr/local/opt/nvm/nvm.sh"
+# elif [ -s " ~/.nvm/nvm.sh" ]; then # Direct installer location
+#   NVM_SH="~/.nvm/nvm.sh"
+# fi
+
+# if [ ! -z "$NVM_SH" ]; then
+#   export NVM_DIR="$HOME/.nvm"
+#   nvm_cmds=(nvm node npm)
+#   for cmd in $nvm_cmds ; do
+#     alias $cmd="unalias $nvm_cmds && unset nvm_cmds && . $NVM_SH && $cmd"
+#   done
+# fi
 
 # Loads pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
@@ -41,7 +53,8 @@ alias delete="rm -rf"
 export LDFLAGS="-L/usr/local/opt/zlib/lib -L/usr/local/opt/bzip2/lib"
 export CPPFLAGS="-I/usr/local/opt/zlib/include -I/usr/local/opt/bzip2/include"
 
-export GPG_TTY=$(tty)
+# LOADED VIA ZSH PLUGIN
+# export GPG_TTY=$(tty)
 
 eval "$(rbenv init -)"
 

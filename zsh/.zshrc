@@ -21,6 +21,9 @@ SPACESHIP_DOCKER_SHOW="false"
 SPACESHIP_GIT_STATUS_DELETED="-"
 SPACESHIP_GIT_SYMBOL=""
 
+# Defer the load of nvm to speed up the start of the zsh session
+NVM_LAZY=1
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -73,12 +76,10 @@ plugins=(
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
-  wd
-  sudo
   nvm
-  docker
-  docker-compose
-  yarn
+  gradle
+  gpg-agent
+  dotenv
 )
 
 source $ZSH/oh-my-zsh.sh
