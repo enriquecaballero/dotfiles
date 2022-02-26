@@ -24,6 +24,9 @@ SPACESHIP_GIT_SYMBOL=""
 # Defer the load of nvm to speed up the start of the zsh session
 NVM_LAZY=1
 
+# Plugin will not print any messages if it finds that pyenv is not properly configured
+ZSH_PYENV_QUIET=true
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -80,12 +83,13 @@ plugins=(
   gradle
   gpg-agent
   ssh-agent
+  pyenv
   dotenv
 )
 
 source $ZSH/oh-my-zsh.sh
 
-# Load shell completion information
+# Load shell completion information for zsh
 # https://support.1password.com/command-line-reference/#completion
 if ! [ which op > /dev/null 2>&1 ]; then
   eval "$(op completion zsh)"; compdef _op op

@@ -20,11 +20,12 @@
 #
 [[ -e ~/.secrets ]] && emulate sh -c 'source ~/.secrets'
 
-# Loads pyenv
+# Loads pyenv if installed
+# LOADED VIA OH MY ZSH PLUGIN `pyenv`
 #
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
+# if ! [ which pyenv 1>/dev/null 2>&1 ]; then
+#   eval "$(pyenv init -)"
+# fi
 
 # Adds `yarn` (global) installed bins to $PATH
 #
@@ -41,6 +42,15 @@ export PATH="$GOPATH/bin:$PATH"
 #
 if ! [ which go > /dev/null 2>&1 ]; then
   export PATH="$PATH:/usr/local/go/bin"
+fi
+
+# Install ssh-manager if not installed
+# https://github.com/omegion/ssh-manager
+#
+if command -v ssh-manager > /dev/null 2>&1; then else
+  echo "Installing ssh-manager...";
+  sudo curl -fL https://github.com/omegion/ssh-manager/releases/latest/download/ssh-manager-darwin-arm64 -o /usr/local/bin/ssh-manager;
+  sudo chmod +x /usr/local/bin/ssh-manager;
 fi
 
 # Aliases can be placed here
