@@ -1,7 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Sources .(bashrc|bash_profile) upon load
+# Sources .bashrc upon load
 [[ -e ~/.bashrc ]] && emulate sh -c 'source ~/.bashrc'
 
 # https://github.com/ohmyzsh/ohmyzsh/issues/6835
@@ -79,10 +79,17 @@ plugins=(
   nvm
   gradle
   gpg-agent
+  ssh-agent
   dotenv
 )
 
 source $ZSH/oh-my-zsh.sh
+
+# Load shell completion information
+# https://support.1password.com/command-line-reference/#completion
+if ! [ which op > /dev/null 2>&1 ]; then
+  eval "$(op completion zsh)"; compdef _op op
+fi
 
 # User configuration
 
