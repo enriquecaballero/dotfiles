@@ -82,7 +82,7 @@ plugins=(
   nvm
   gradle
   gpg-agent
-  ssh-agent
+  #ssh-agent # Using 1Password 8's ssh agent
   pyenv
   dotenv
 )
