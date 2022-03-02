@@ -69,7 +69,7 @@ module.exports = {
       }
       .tab_icon {
         top: 11px !important;
-        right: 9px !important;
+        right: 11px !important;
       }
       .xterm-viewport::-webkit-scrollbar {
         display: none;
