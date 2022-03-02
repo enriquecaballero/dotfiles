@@ -44,15 +44,28 @@ module.exports = {
       .tab_text {
         height: 38px !important;
       }
+      .tab_textInner {
+        padding-top: 1px;
+      }
+      .tab_tab:not(.tab_active) {
+        border: none !important;
+      }
+      .tab_tab:not(.tab_active) .tab_text {
+        opacity: 0.65;
+      }
       .tabs_list {
         max-height: inherit !important;
       }
       .tab_tab {
-        box-shadow: inset 0px -1px 1px rgb(51 51 51);
+        box-shadow: inset 0px -1px 0px rgb(51 51 51);
         border-bottom-style: none !important;
       }
       .tab_active {
         box-shadow: none;
+      }
+      .tab_active:not(:last-child) {
+        border-right-width: 1px
+        border-right-style: solid;
       }
       .tab_icon {
         top: 11px !important;
