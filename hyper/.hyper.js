@@ -40,6 +40,9 @@ module.exports = {
     borderColor: "#333",
     // custom CSS to embed in the main window
     css: `
+      .terms_terms {
+        margin-top: 38px !important;
+      }
       .tabs_nav, 
       .tab_text {
         height: 38px !important;
