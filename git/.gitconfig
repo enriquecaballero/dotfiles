@@ -1,16 +1,37 @@
+# Default
 [user]
-  name = Enrique Caballero
-  email = ecaballerojr@icloud.com
-  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOeo501N/wA+7hOvjLRau8EONMUa66bzRnadgsuFSRw2
-[includeIf "hasconfig:remote.*.url:git@gitlab.red-alpha.com:*/**"]
-  path = .gitconfig.red-alpha
+	name = Enrique Caballero
+	email = enrique@caballero.dev
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAeopjfGdBhfUXuYYeyy7KGkmrpQphdUZQeA9heO2P6Z
+
+# Red Alpha
+[includeIf "hasconfig:remote.*.url:*github.com*[Rr]ed-[Aa]lpha-*/**"]
+	path = .gitconfig.red-alpha
+[includeIf "hasconfig:remote.*.url:*gitlab.com*[Rr]ed-[Aa]lpha-*/**"]
+	path = .gitconfig.red-alpha
+[includeIf "hasconfig:remote.*.url:*gitlab.red-alpha.com*/**"]
+	path = .gitconfig.red-alpha
+
+# AGX
+[includeIf "hasconfig:remote.*.url:*github.com*agricultural-exchange-inc/**"]
+	path = .gitconfig.agx
+[includeIf "hasconfig:remote.*.url:*gitlab.com*agricultural-exchange-inc/**"]
+	path = .gitconfig.agx
+
 [commit]
   gpgsign = true
 [gpg]
   format = ssh
-[gpg "ssh"]
-  program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[include]
+  path = .gitconfig.1password
+
 [pull]
   ff = only
 [init]
   defaultBranch = master
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
