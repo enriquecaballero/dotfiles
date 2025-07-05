@@ -1,52 +1,23 @@
-# Loads `nvm`
-# LOADED VIA OH MY ZSH PLUGIN `nvm`
-#
-# nvm.sh location depends on installation method
-# if [ -s "/usr/local/opt/nvm/nvm.sh" ]; then # Homebrew installer location
-#   NVM_SH="/usr/local/opt/nvm/nvm.sh"
-# elif [ -s " ~/.nvm/nvm.sh" ]; then # Direct installer location
-#   NVM_SH="~/.nvm/nvm.sh"
-# fi
-#
-# if [ ! -z "$NVM_SH" ]; then
-#   export NVM_DIR="$HOME/.nvm"
-#   nvm_cmds=(nvm node npm)
-#   for cmd in $nvm_cmds ; do
-#     alias $cmd="unalias $nvm_cmds && unset nvm_cmds && . $NVM_SH && $cmd"
-#   done
-# fi
-
-# Loads secret environment variables
-#
-[[ -e ~/.secrets ]] && emulate sh -c 'source ~/.secrets'
-
-# Loads pyenv if installed
-# LOADED VIA OH MY ZSH PLUGIN `pyenv`
-#
-# if ! [ which pyenv 1>/dev/null 2>&1 ]; then
-#   eval "$(pyenv init -)"
-# fi
-
 # Adds `yarn` (global) installed bins to $PATH
-#
-export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+if [ -d "$HOME/.config/yarn/global/node_modules/.bin" ]; then
+  export PATH="$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+fi
 
 # Specifies the location of the `go` workspace
-# Reference: https://github.com/golang/go/wiki/SettingGOPATH
-#
-export GOPATH="$HOME/go"
-export PATH="$GOPATH/bin:$PATH"
+# https://github.com/golang/go/wiki/SettingGOPATH
+if command -v go >/dev/null 2>&1; then
+  export GOPATH="$HOME/go"
+  export PATH="$GOPATH/bin:$PATH"
+fi
 
 # Checks for `go` in $PATH
 # If inexistent, `go` is assumed to be installed under the `/usr/local` hierarchy
-#
 if ! [ which go > /dev/null 2>&1 ]; then
   export PATH="$PATH:/usr/local/go/bin"
 fi
 
 # Aliases can be placed here
 # For a full list of active aliases, run `alias`
-#
 alias aliases="less ~/.bashrc | grep alias --color=never"
 alias ll="ls -lh"
 alias la="ls -A"
@@ -54,31 +25,30 @@ alias l.="ls -d .*"
 alias ports="lsof -Pn -i4 | grep LISTEN"
 alias root="sudo -i"
 alias size="du -sh"
-alias delete="rm -rf"
 
-# https://github.com/pyenv/pyenv/issues/1737#issuecomment-738080459
-# For compilers to find Homebrew bzip2 and zlib installations:
-#
-export LDFLAGS="-L/usr/local/opt/zlib/lib -L/usr/local/opt/bzip2/lib"
-export CPPFLAGS="-I/usr/local/opt/zlib/include -I/usr/local/opt/bzip2/include"
+# Add local bin directory to path
+export PATH="/Users/enrique/.local/bin:$PATH"
 
-# Opens connection to auth agent if disabled
-# LOADED VIA OH MY ZSH PLUGIN `ssh-agent`
-#
-# [ -z "$SSH_AUTH_SOCK" ] && eval "$(ssh-agent -s)"
+# Set R_HOME variable pointing to R bin
+if command -v R >/dev/null 2>&1; then
+  export R_HOME=$(which R)
+fi
 
-# Enables GPG's gpg-agent if it is not running
-# LOADED VIA OH MY ZSH PLUGIN `gpg-agent`
-# 
-# export GPG_TTY=$(tty)
+# Enable BuildKit
+# https://docs.docker.com/develop/develop-images/build_enhancements/#to-enable-buildkit-builds
+export DOCKER_BUILDKIT=1
 
-# Initializes rbenv
-#
-eval "$(rbenv init -)"
+# Add MySQL Client to path
+if [ -d "/opt/homebrew/opt/mysql-client/bin" ]; then
+  export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+fi
 
-# Helper for switch Java versions
-#
-function jenv() {
-  export JAVA_HOME=$(/usr/libexec/java_home -v $1)
-  java -version
-}
+# 1Password SSH agent
+if [ -S "$HOME/.1password/agent.sock" ]; then
+  export SSH_AUTH_SOCK="$HOME/.1password/agent.sock"
+fi
+
+# Cargo environment
+if [ -f "$HOME/.cargo/env" ]; then
+  . "$HOME/.cargo/env"
+fi
